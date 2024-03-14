@@ -73,7 +73,7 @@ namespace NotePad__
 
         private void VerificarAlteracoes()
         {
-            if (rbTexto.Modified = true)
+            if (rbTexto.Modified == true)
             {
                 DialogResult resposta = MessageBox.Show("Deseja guardar o texto atual?", "Atenção", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
